@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pipes.sh -t 3 -p 2 -r 1000 

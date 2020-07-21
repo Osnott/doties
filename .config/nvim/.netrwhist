@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/osnott'
+let g:netrw_dirhist_5='/home'
+let g:netrw_dirhist_4='/home/osnott'
+let g:netrw_dirhist_3='/home/osnott/Projects'
+let g:netrw_dirhist_2='/home/osnott/Projects/Robot2019-State'
+let g:netrw_dirhist_1='/home/osnott/Projects'

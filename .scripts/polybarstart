@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Kill the polybars processes
+killall -q polybar
+
+#Launch polybar
+polybar example &
+polybar bottom &

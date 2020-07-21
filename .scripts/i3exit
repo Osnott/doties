@@ -1,0 +1,19 @@
+#!/bin/bash
+
+exit_action () { i3-msg exit; }
+continue_action () { echo ""; }
+handle_dismiss () { echo ""; }
+
+ACTION=$(dunstify --action="exit,exit" --action="continue,continue" "Exit i3?")
+
+case "$ACTION" in
+"exit")
+    exit_action
+    ;;
+"continue")
+    continue_action
+    ;;
+"2")
+    handle_dismiss
+    ;;
+esac

@@ -1,0 +1,10 @@
+[user]
+	email = aidenonstott@gmail.com
+	name = Aiden Onstott
+	signingkey = 7617DAD112923968
+[core]
+	editor = nvim
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2

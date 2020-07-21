@@ -1,0 +1,46 @@
+#!/bin/sh
+
+. $HOME/.cache/wal/colors.sh
+
+B=${color0:1:6}ff  # blank
+C=${color8:1:6}ff  # clear ish
+D=${color1:1:6}ff  # default
+T=${color7:1:6}ff  # text
+W=${color2:1:6}ff  # wrong
+V=${color4:1:6}ff  # verifying
+
+/usr/bin/i3lock \
+--insidevercolor=$C   \
+--ringvercolor=$V     \
+\
+--insidewrongcolor=$C \
+--ringwrongcolor=$W   \
+\
+--insidecolor=$B      \
+--ringcolor=$D        \
+--linecolor=$B        \
+--separatorcolor=$D   \
+\
+--verifcolor=$T        \
+--wrongcolor=$T        \
+--timecolor=$T        \
+--datecolor=$T        \
+--layoutcolor=$T      \
+--keyhlcolor=$W       \
+--bshlcolor=$W        \
+\
+--screen 1            \
+--blur 5              \
+--clock               \
+--indicator           \
+--timestr="%H:%M:%S"  \
+# --datestr="%A, %m %Y" \
+# --keylayout 2         \
+\
+--veriftext="Hmm..." \
+--wrongtext="Nope!" \
+# --textsize=20
+# --modsize=10
+# --timefont=google-sans \
+# --datefont=monofur    \
+# etc

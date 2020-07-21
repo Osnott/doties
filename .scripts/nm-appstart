@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Kill the polybars processes
+killall -q nm-applet
+
+#Launch polybar
+nm-applet & 
